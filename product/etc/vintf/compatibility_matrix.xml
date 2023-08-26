@@ -1,0 +1,14 @@
+<!--
+    Input:
+        framework_compatibility_matrix.xml
+-->
+<compatibility-matrix version="2.0" type="framework">
+    <hal format="hidl" optional="false">
+        <name>motorola.hardware.health</name>
+        <version>2.0</version>
+        <interface>
+            <name>IMotHealth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
